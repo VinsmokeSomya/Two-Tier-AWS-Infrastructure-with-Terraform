@@ -100,7 +100,13 @@ terraform apply -var-file=variables.tfvars --auto-approve
 
 ```bash
 terraform destroy -var-file=variables.tfvars --auto-approve
-```  
+```
+
+### 4️⃣ Delete the Repository (Optional):
+- If you cloned the Git repository for this project and no longer need it, you can delete it locally.
+```bash
+rm -rf DevOps-Projects
+```
 
 ---
 
